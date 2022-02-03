@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-tailwind-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gatsby+Tailwind Template",
+  "author": "@andreskemeny",
+  "license": "unlicensed",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "start": "gatsby serve",
+    "build": "gatsby build",
+    "dev": "gatsby develop -p 3000",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.5.2",
+    "gatsby-plugin-google-analytics": "^4.5.0",
+    "gatsby-plugin-image": "^2.5.1",
+    "gatsby-plugin-manifest": "^4.5.1",
+    "gatsby-plugin-offline": "^5.5.1",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sharp": "^4.5.1",
+    "gatsby-plugin-sitemap": "^5.5.0",
+    "gatsby-plugin-typescript": "^4.5.1",
+    "gatsby-source-filesystem": "^4.5.1",
+    "gatsby-transformer-sharp": "^4.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "gatsby-plugin-postcss": "^5.5.0",
+    "gatsby-plugin-tsconfig-paths": "^1.0.5",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
+  }
+}
