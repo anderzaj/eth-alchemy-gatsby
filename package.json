@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-tailwind-template",
+  "name": "alchemy-web3-test",
   "version": "1.0.0",
   "private": true,
-  "description": "Gatsby+Tailwind Template",
-  "author": "@andreskemeny",
+  "description": "",
+  "author": "@anderzaj",
   "license": "unlicensed",
   "keywords": [
     "gatsby"
@@ -15,6 +15,12 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@alch/alchemy-web3": "^1.2.1",
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.0",
+    "dotenv": "^16.0.0",
+    "electron": "^17.0.0",
     "gatsby": "^4.5.2",
     "gatsby-plugin-google-analytics": "^4.5.0",
     "gatsby-plugin-image": "^2.5.1",
@@ -24,12 +30,18 @@
     "gatsby-plugin-robots-txt": "^1.7.0",
     "gatsby-plugin-sharp": "^4.5.1",
     "gatsby-plugin-sitemap": "^5.5.0",
-    "gatsby-plugin-typescript": "^4.5.1",
     "gatsby-source-filesystem": "^4.5.1",
     "gatsby-transformer-sharp": "^4.5.0",
+    "https-browserify": "^1.0.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "url": "^0.11.0",
+    "webpack": "^5.68.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.2",

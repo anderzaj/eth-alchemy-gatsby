@@ -1,18 +1,19 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-tailwind-template',
-    description: 'A starter template for Gatsby with Tailwind.',
-    author: '@andreskemeny',
-    siteUrl: 'https://www.yourdomain.tld',
+    title: 'alchemy-web3-test',
+    description: 'Testing the Alchemy Web3 API',
+    author: '@anderzaj',
   },
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-image',
     'gatsby-plugin-offline',
-    'gatsby-plugin-typescript',
     'gatsby-plugin-postcss',
-    'gatsby-plugin-tsconfig-paths',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
