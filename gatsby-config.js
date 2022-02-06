@@ -3,10 +3,6 @@ require("dotenv").config({
 })
 
 module.exports = {
-  pathPrefix: "/eth-alchemy-gatsby",
-}
-
-module.exports = {
   siteMetadata: {
     title: 'alchemy-web3-test',
     description: 'Testing the Alchemy Web3 API',
