@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "dev": "gatsby develop -p 3000",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages-deployment -d public"
   },
   "dependencies": {
     "@alch/alchemy-web3": "^1.2.1",
