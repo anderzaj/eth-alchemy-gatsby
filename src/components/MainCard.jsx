@@ -5,7 +5,7 @@ import {
   connectWallet,
   getCurrentWalletConnected,
   updateMessage
-} from "../utils/interact";
+} from "../api/interact";
 
 import logo from "../images/logo.svg"
 
