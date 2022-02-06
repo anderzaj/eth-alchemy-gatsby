@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 
-exports.onCreateWebpackConfig = ({ actions }) => {
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   actions.setWebpackConfig({
     resolve: {
       fallback: {
@@ -24,4 +24,17 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       }),
     ]
   })
+
+  if (stage === "build-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /interact/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
 }
